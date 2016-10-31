@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Friendsgiving</title>
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png"/>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png"/>
+      <img src="leaves.png"/>
+      <h1>I'll be there!</h1>
+      <form action="https://gridspree.io/ss/FNSLwmiFJ9p43PzEgARQm6" method="POST">
+        <label>Name</label>
+        <input type="text" name="name"/>
+        <label>I'm thinking about bringing...</label>
+        <input type="text" name="food"/>
+        <input type="submit"/>
+      </form>
+      <h1> Who is coming?</h1>
+      <div class="coming"/></div>
+        <script type="x-gridspree-template">
+          {{#rows}}
+            <div class="entry">
+              <span>{{name}}</span> will be there and they are thinking about bringing <span class="food">{{food}}</span>
+            </div>
+          {{/rows}}
+        </script>
+    </div>
+  </body>
+  <script src="https://gridspree.io/ss/xY4dfPoavEou2Sozex36fg.js"></script>
+</html>

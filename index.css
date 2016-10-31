@@ -1,0 +1,70 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 75px;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 100px;
+}
+
+h1 {
+  color: #6C8AC0;
+}
+
+img {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background: #6C8AC0;
+  border-radius: 3px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  padding-top: 0;
+}
+
+form input{
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 15px;
+}
+label {
+  margin-top: 35px;
+  display: block;
+  font-size: 30px;
+
+}
+
+.rsvp {
+  display: flex!important;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.rsvp input {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.entry {
+  margin-top: 20px;
+}
+
+.coming {
+  text-align: center;
+}
+
+
+.food {
+  font-weight: bold;
+  font-size: 17px;
+}
