@@ -44,7 +44,11 @@ label {
   font-size: 30px;
 
 }
-
+.details {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+}
 .rsvp {
   display: flex!important;
   flex-direction: row;
