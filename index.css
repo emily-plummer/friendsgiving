@@ -28,6 +28,7 @@ form {
   margin-top: 30px;
   margin-bottom: 45px;
   padding-top: 0;
+  width: 500px;
 }
 
 form input{
@@ -38,7 +39,7 @@ form input{
   margin-top: 15px;
 }
 label {
-  margin-top: 35px;
+  margin-top: 30px;
   display: block;
   font-size: 30px;
 
@@ -67,4 +68,15 @@ label {
 .food {
   font-weight: bold;
   font-size: 17px;
+}
+
+.submit {
+  background-color: white;
+  color: #6C8AC0;
+  transition: all .2s ease-in;
+}
+
+.submit:hover {
+  background-color: #6C8AC0;
+  color: white;
 }
