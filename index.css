@@ -30,6 +30,8 @@ img {
   font-size: 36px;
   margin-top: 50px;
   text-decoration: none;
+  background-color: #002642;
+  padding: 25px;
 }
 
 .rsvp:hover {
