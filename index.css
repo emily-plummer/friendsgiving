@@ -1,90 +1,84 @@
-
+body {
+  margin: 0;
+}
 
 .container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Playfair Display', serif;
-  padding: 75px 20px 100px 20px;
+  font-family: 'Josefin Slab', serif;
+  background-color: #002642;
+}
+
+.letterboard {
+  max-width: 600px;
 }
 
 h1 {
-  color: #6C8AC0;
+  color: #E59500;
 }
 
 img {
   display: block;
-  max-width: 100%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  background: #6C8AC0;
-  border-radius: 3px;
-  padding: 30px;
-  margin-top: 30px;
-  margin-bottom: 45px;
-  padding-top: 0;
-  width: 500px;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-
-form input{
-  display: block;
-  border: 2px solid #fff;
-  border-radius: 2px;
-  padding: 10px;
-  margin-top: 15px;
-}
-label {
-  margin-top: 30px;
-  display: block;
-  font-size: 30px;
-
-}
-
-.details {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 70px;
+  width: 50%;
 }
 
 .rsvp {
-  display: flex!important;
-  flex-direction: row;
-  align-items: baseline;
+  font-size: 36px;
+  color: #E59500;
+  margin-top: 50px;
+  text-decoration: none;
 }
 
-.rsvp input {
-  margin-right: 10px;
-  margin-left: 10px;
+.rsvp:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.entry {
-  margin-top: 20px;
+.turkeys {
+  display: flex;
+  padding: 30px;
 }
+.turkey {
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
 
-.coming {
-  text-align: center;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-
-
-.food {
-  font-weight: bold;
-  font-size: 17px;
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
 }
-
-.submit {
-  background-color: white;
-  color: #6C8AC0;
-  transition: all .2s ease-in;
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
 }
-
-.submit:hover {
-  background-color: #6C8AC0;
-  color: white;
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
