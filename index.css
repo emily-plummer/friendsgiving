@@ -8,6 +8,8 @@ body {
   flex-direction: column;
   font-family: 'Josefin Slab', serif;
   background-color: #002642;
+  height: 100%;
+  cursor: url(fork.png), auto;
 }
 
 .letterboard {
@@ -81,4 +83,14 @@ img {
     to {
         transform:rotate(360deg);
     }
+}
+
+.turkey-button {
+  background-color: transparent;
+  border: 2px solid #E59500;
+  border-radius: 3px;
+}
+
+.turkey-button:hover {
+  background-color: #E59500;
 }
